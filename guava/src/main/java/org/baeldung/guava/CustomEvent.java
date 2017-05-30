@@ -1,6 +1,7 @@
 package org.baeldung.guava;
 
 public class CustomEvent {
+
     private String action;
 
     public CustomEvent(String action) {
@@ -14,4 +15,5 @@ public class CustomEvent {
     public void setAction(String action) {
         this.action = action;
     }
+
 }
